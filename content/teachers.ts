@@ -7,7 +7,7 @@
  * messages/{id,en}.json → teachers.people.<id>.
  */
 
-export type TeacherId = "sari" | "daniel" | "rina" | "yosef" | "tika";
+export type TeacherId = "tina" | "aisveriyah" | "ridhi" | "firman" | "tika" | "adinda" | "raihan" | "lailan";
 
 export type Teacher = {
   id: TeacherId;
@@ -20,36 +20,50 @@ export type Teacher = {
 // TODO: real photos → /public/images/teacher-<id>.jpg, portrait 4:5, ≥ 800×1000px.
 export const teachers: Teacher[] = [
   {
-    id: "sari",
-    name: "Miss Sari",
+    id: "tina",
+    name: "Sir Tina",
     credentials: ["TESOL", "S.Pd. Bahasa Inggris"],
     image: { src: "/images/teacher-sari.jpg", width: 800, height: 1000 },
     placeholder: true,
   },
   {
-    id: "daniel",
-    name: "Mr. Daniel",
+    id: "aisveriyah",
+    name: "Miss Aisveriyah",
     credentials: ["IELTS 7.5", "TOEFL ITP 610"],
     image: { src: "/images/teacher-daniel.jpg", width: 800, height: 1000 },
     placeholder: true,
   },
   {
-    id: "rina",
-    name: "Miss Rina",
+    id: "ridhi",
+    name: "Miss Ridhi",
     credentials: ["CELTA"],
     image: { src: "/images/teacher-rina.jpg", width: 800, height: 1000 },
     placeholder: true,
   },
   {
-    id: "yosef",
-    name: "Mr. Yosef",
+    id: "firman",
+    name: "Sir Firman",
     credentials: ["TOEFL ITP 600", "TESOL"],
     image: { src: "/images/teacher-yosef.jpg", width: 800, height: 1000 },
     placeholder: true,
   },
   {
-    id: "tika",
-    name: "Miss Tika",
+    id: "adinda",
+    name: "Miss Adinda",
+    credentials: ["TKT", "S.Pd. Bahasa Inggris"],
+    image: { src: "/images/teacher-tika.jpg", width: 800, height: 1000 },
+    placeholder: true,
+  },
+  {
+    id: "raihan",
+    name: "Sir Raihan",
+    credentials: ["TKT", "S.Pd. Bahasa Inggris"],
+    image: { src: "/images/teacher-tika.jpg", width: 800, height: 1000 },
+    placeholder: true,
+  },
+  {
+    id: "lailan",
+    name: "Miss Lailan",
     credentials: ["TKT", "S.Pd. Bahasa Inggris"],
     image: { src: "/images/teacher-tika.jpg", width: 800, height: 1000 },
     placeholder: true,
