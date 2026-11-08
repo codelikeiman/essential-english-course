@@ -7,7 +7,7 @@
  * messages/{id,en}.json → teachers.people.<id>.
  */
 
-export type TeacherId = "tina" | "aisveriyah" | "ridhi" | "firman" | "tika" | "adinda" | "raihan" | "lailan";
+export type TeacherId = "tina" | "aisveriyah" | "ridhi" | "firman" | "adinda" | "raihan" | "lailan";
 
 export type Teacher = {
   id: TeacherId;
