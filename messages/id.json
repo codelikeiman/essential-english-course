@@ -207,25 +207,33 @@
     "next": "Pengajar berikutnya",
     "teaches": "Mengajar {programs}",
     "people": {
-      "sari": {
+      "tina": {
         "teaches": "KG & Standard",
         "quote": "Salah itu bagian dari belajar. Yang penting berani ngomong dulu."
       },
-      "daniel": {
+      "aisveriyah": {
         "teaches": "Intermediate & Pre-TOEFL",
         "quote": "Saya suka kelas yang berisik. Artinya semua lagi latihan."
       },
-      "rina": {
+      "ridhi": {
         "teaches": "Kindergarten & Primary",
         "quote": "Anak kecil nggak perlu dipaksa. Cukup dibikin penasaran."
       },
-      "yosef": {
+      "firman": {
         "teaches": "Pre-TOEFL",
         "quote": "Strategi tes itu bisa dipelajari. Tenang saat tes juga bisa dilatih."
       },
-      "tika": {
+      "adinda": {
         "teaches": "Elementary & Primary",
         "quote": "Kalau kamu diam, saya tunggu. Pelan-pelan juga nggak apa-apa."
+      },
+      "raihan": {
+        "teaches": "Elementary & Primary",
+        "quote": "Belajar bahasa itu soal kebiasaan. Sedikit tapi rutin, hasilnya kelihatan."
+      },
+      "lailan": {
+        "teaches": "Kindergarten & Primary",
+        "quote": "Kalau kelasnya menyenangkan, anak-anak lupa kalau mereka lagi belajar."
       }
     }
   },

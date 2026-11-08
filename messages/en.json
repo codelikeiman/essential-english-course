@@ -207,25 +207,33 @@
     "next": "Next teacher",
     "teaches": "Teaches {programs}",
     "people": {
-      "sari": {
+      "tina": {
         "teaches": "KG & Standard",
         "quote": "Mistakes are part of learning. What matters is speaking up first."
       },
-      "daniel": {
+      "aisveriyah": {
         "teaches": "Intermediate & Pre-TOEFL",
         "quote": "I like a noisy class. It means everyone’s practising."
       },
-      "rina": {
+      "ridhi": {
         "teaches": "Kindergarten & Primary",
         "quote": "Little kids don’t need pushing. Just make them curious."
       },
-      "yosef": {
+      "firman": {
         "teaches": "Pre-TOEFL",
         "quote": "Test strategy can be learned. So can staying calm on test day."
       },
-      "tika": {
+      "adinda": {
         "teaches": "Elementary & Primary",
         "quote": "If you go quiet, I’ll wait. Slow is fine."
+      },
+      "raihan": {
+        "teaches": "Elementary & Primary",
+        "quote": "Language is a habit. A little, regularly, and you’ll see the results."
+      },
+      "lailan": {
+        "teaches": "Kindergarten & Primary",
+        "quote": "When class is fun, kids forget they’re even studying."
       }
     }
   },
