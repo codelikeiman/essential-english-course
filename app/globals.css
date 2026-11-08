@@ -1,0 +1,411 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "lenis/dist/lenis.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ==========================================================================
+   Design tokens — "editorial notebook"
+   Light: warm paper + ink, one strong accent (tomato) + one quiet (forest).
+   Dark: warm charcoal + cream, same accent.
+   ========================================================================== */
+
+:root {
+  --paper: #f6f1e7;
+  --paper-2: #eee7d9;
+  --paper-3: #e4dbc9;
+  --ink: #1a1a1a;
+  --ink-muted: #5c564d; /* 6.4:1 on paper */
+  --rule: #d6ccb8;
+  --tomato: #e4572e; /* 3.3:1 on paper → large type, marks, focus ring only */
+  --tomato-ink: #a93a18; /* tomato for small text: 5.6:1 on paper */
+  --on-tomato: #1a1a1a; /* ink on tomato 4.7:1 — white would fail (3.7:1) */
+  --forest: #1f4d3a;
+  --forest-ink: #1f4d3a; /* 8.5:1 on paper */
+  --on-forest: #f6f1e7;
+  --footer: #1a1a1a;
+  --on-footer: #f6f1e7;
+  --ring: var(--tomato);
+
+  /* shadcn/ui semantic aliases (components/ui/* read these) */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper-2);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--tomato);
+  --primary-foreground: var(--on-tomato);
+  --secondary: var(--paper-2);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-2);
+  --muted-foreground: var(--ink-muted);
+  --accent: var(--paper-3);
+  --accent-foreground: var(--ink);
+  --destructive: var(--tomato-ink);
+  --border: var(--rule);
+  --input: var(--ink);
+
+  /* Paper grain: tiled SVG noise used as a background layer (no overlay,
+     no blend modes → no repaint cost while scrolling). */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.10 0 0 0 0 0.09 0 0 0 0 0.07 0 0 0 0.11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain-on-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.96 0 0 0 0 0.93 0 0 0 0 0.86 0 0 0 0.075 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.dark {
+  --paper: #161513;
+  --paper-2: #1e1c19;
+  --paper-3: #2a2723;
+  --ink: #efe8da;
+  --ink-muted: #a8a092; /* 7.1:1 on charcoal */
+  --rule: #36322c;
+  --tomato: #e4572e; /* 4.9:1 on charcoal */
+  --tomato-ink: #ee7650; /* 6.4:1 on charcoal */
+  --on-tomato: #161513;
+  --forest: #1c4535;
+  --forest-ink: #8fc1a6;
+  --on-forest: #efe8da;
+  --footer: #0e0d0c;
+  --on-footer: #efe8da;
+  --grain: var(--grain-on-dark);
+}
+
+/* Strip Tailwind's default palette & shadows so only brand tokens exist. */
+@theme {
+  --color-*: initial;
+  --shadow-*: initial;
+  --font-*: initial;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Radii: sharp by default, never more than 6px (stickers use rounded-full). */
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+  --radius-xl: 6px;
+  --radius-2xl: 6px;
+  --radius-3xl: 6px;
+
+  --shadow-float: 0 10px 24px -12px rgb(0 0 0 / 0.45);
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --breakpoint-xs: 22.5rem; /* 360px */
+
+  /* Fluid type scale, interpolated between 360px and 1536px viewports. */
+  --text-display: clamp(2.875rem, 1.6122rem + 5.6122vw, 7rem); /* 46 → 112 */
+  --text-display--line-height: 0.92;
+  --text-display--letter-spacing: -0.035em;
+  --text-h1: clamp(2.5rem, 1.4286rem + 4.7619vw, 6rem); /* 40 → 96 */
+  --text-h1--line-height: 0.95;
+  --text-h1--letter-spacing: -0.03em;
+  --text-h2: clamp(2.125rem, 1.398rem + 3.2313vw, 4.5rem); /* 34 → 72 */
+  --text-h2--line-height: 1;
+  --text-h2--letter-spacing: -0.025em;
+  --text-h3: clamp(1.5rem, 1.1939rem + 1.3605vw, 2.5rem); /* 24 → 40 */
+  --text-h3--line-height: 1.08;
+  --text-h3--letter-spacing: -0.015em;
+  --text-quote: clamp(1.5rem, 1.1173rem + 1.7007vw, 2.75rem); /* 24 → 44 */
+  --text-quote--line-height: 1.15;
+  --text-quote--letter-spacing: -0.01em;
+  --text-h4: clamp(1.1875rem, 1.0918rem + 0.4252vw, 1.5rem); /* 19 → 24 */
+  --text-h4--line-height: 1.2;
+  --text-lead: clamp(1.125rem, 1.0676rem + 0.2551vw, 1.3125rem); /* 18 → 21 */
+  --text-lead--line-height: 1.5;
+  --text-body: clamp(1rem, 0.9809rem + 0.085vw, 1.0625rem); /* 16 → 17 */
+  --text-body--line-height: 1.6;
+  --text-small: clamp(0.875rem, 0.8559rem + 0.085vw, 0.9375rem); /* 14 → 15 */
+  --text-small--line-height: 1.45;
+  --text-label: 0.75rem; /* 12 */
+  --text-label--line-height: 1.2;
+  --text-label--letter-spacing: 0.12em;
+  --text-note: clamp(1.75rem, 1.6352rem + 0.5102vw, 2.125rem); /* 28 → 34: "large text", so tomato's 3.3:1 passes */
+  --text-note--line-height: 1;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-paper-3: var(--paper-3);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rule: var(--rule);
+  --color-tomato: var(--tomato);
+  --color-tomato-ink: var(--tomato-ink);
+  --color-on-tomato: var(--on-tomato);
+  --color-forest: var(--forest);
+  --color-forest-ink: var(--forest-ink);
+  --color-on-forest: var(--on-forest);
+  --color-footer: var(--footer);
+  --color-on-footer: var(--on-footer);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, "Times New Roman", serif;
+  --font-hand: var(--font-pen), "Segoe Print", "Bradley Hand", cursive;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  *,
+  ::after,
+  ::before {
+    border-color: var(--border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--paper);
+    background-image: var(--grain);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    text-wrap: balance;
+  }
+
+  /* Fraunces ships in one weight; never fake a bold. */
+  .font-display,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-synthesis-weight: none;
+  }
+
+  p,
+  li,
+  dd {
+    text-wrap: pretty;
+  }
+
+  /* Italic emphasis words in headings use the real Fraunces italic. */
+  :is(h1, h2, h3, h4, blockquote) em {
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background-color: var(--tomato);
+    color: var(--on-tomato);
+  }
+
+  /* Anchored sections clear the sticky navbar. */
+  [id] {
+    scroll-margin-top: 4.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ==========================================================================
+   Layout utilities
+   ========================================================================== */
+
+/* Page container: max 1440px; gutters 20 / 32 / 48 / 64px. */
+@utility shell {
+  --shell-pad: 1.25rem;
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: var(--shell-pad);
+  @media (width >= 48rem) {
+    --shell-pad: 2rem;
+  }
+  @media (width >= 64rem) {
+    --shell-pad: 3rem;
+  }
+  @media (width >= 96rem) {
+    --shell-pad: 4rem;
+  }
+}
+
+/* Lets a grid item run past the shell to the viewport's right edge
+   (teacher carousel). The parent section clips horizontal overflow. */
+@utility bleed-right {
+  margin-right: calc((min(100vw, 90rem) - 100vw) / 2 - var(--shell-pad, 1.25rem));
+}
+
+/* Editorial grid: 4 cols (mobile) → 8 (md) → 12 (lg+). */
+@utility grid-page {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 1rem;
+  @media (width >= 48rem) {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    column-gap: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+}
+
+/* Deliberately uneven section rhythm. */
+@utility section-tight {
+  padding-block: clamp(3.5rem, 2.8878rem + 2.7211vw, 5.5rem);
+}
+@utility section-regular {
+  padding-block: clamp(5rem, 4.0816rem + 4.0816vw, 8rem);
+}
+@utility section-loose {
+  padding-block: clamp(6.5rem, 5.1224rem + 6.1224vw, 11rem);
+}
+
+/* Small caps label: "01 — PROGRAM", table heads, sticker text. */
+@utility label {
+  font-family: var(--font-sans);
+  font-size: var(--text-label);
+  line-height: var(--text-label--line-height);
+  letter-spacing: var(--text-label--letter-spacing);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Handwritten annotation (Nanum Pen Script). Always ≥28px so tomato keeps 3:1. */
+@utility note {
+  font-family: var(--font-hand);
+  font-size: var(--text-note);
+  line-height: var(--text-note--line-height);
+  font-weight: 400;
+}
+
+@utility grain {
+  background-image: var(--grain);
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Warm, consistent treatment applied to every photo (placeholders too).
+   Real photos dropped into /public/images get the same look automatically. */
+@utility photo-warm {
+  filter: sepia(0.14) saturate(0.88) contrast(1.03);
+  .dark & {
+    filter: sepia(0.14) saturate(0.85) brightness(0.88) contrast(1.05);
+  }
+}
+
+/* Sections painted in forest green switch the focus ring to cream:
+   tomato on forest is only 2.6:1. */
+@utility on-forest {
+  --ring: var(--on-forest);
+  background-color: var(--forest);
+  color: var(--on-forest);
+  background-image: var(--grain-on-dark);
+}
+
+@utility on-footer {
+  background-color: var(--footer);
+  color: var(--on-footer);
+  background-image: var(--grain-on-dark);
+}
+
+/* A strip of masking tape holding a photo (hero collage only). */
+@utility tape {
+  position: absolute;
+  z-index: 2;
+  height: 1.5rem;
+  width: 5.5rem;
+  background-color: rgb(236 224 196 / 0.8);
+  box-shadow: 0 0 0 0.5px rgb(26 26 26 / 0.08);
+  clip-path: polygon(
+    2% 8%, 8% 0, 16% 6%, 26% 1%, 38% 7%, 52% 0, 66% 6%, 80% 1%, 92% 5%, 100% 0,
+    98% 30%, 100% 62%, 97% 100%, 88% 94%, 74% 100%, 60% 93%, 46% 100%, 32% 94%,
+    18% 100%, 6% 95%, 0 100%, 3% 64%, 0 32%
+  );
+}
+
+/* ==========================================================================
+   Motion: hero headline mask reveal (CSS, so it starts on first paint and
+   never waits for hydration — protects LCP on slow phones).
+   ========================================================================== */
+
+@keyframes word-rise {
+  from {
+    transform: translate3d(0, 108%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.reveal-mask {
+  display: inline-block;
+  overflow: clip;
+  vertical-align: top;
+  /* Extend the clip box for ascenders, descenders and italic overhang
+     without changing layout. */
+  padding: 0.12em 0.1em 0.2em 0.02em;
+  margin: -0.12em -0.1em -0.2em -0.02em;
+}
+
+.reveal-word {
+  display: inline-block;
+  animation: word-rise 0.7s var(--ease-editorial) both;
+  animation-delay: calc(var(--i, 0) * 55ms + 60ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-word {
+    animation: none;
+  }
+}

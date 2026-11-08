@@ -1,0 +1,17 @@
+/**
+ * Absolute site URL for metadata, sitemap, robots and JSON-LD.
+ * Set NEXT_PUBLIC_SITE_URL in production (e.g. https://www.your-domain.id).
+ */
+export function getSiteUrl(): URL {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
+  if (explicit) return new URL(explicit);
+
+  const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+  if (vercel) return new URL(`https://${vercel}`);
+
+  return new URL("http://localhost:3000");
+}
+
+export function absoluteUrl(path: string): string {
+  return new URL(path, getSiteUrl()).toString();
+}

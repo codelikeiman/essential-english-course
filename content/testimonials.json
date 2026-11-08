@@ -1,0 +1,90 @@
+{
+  "_README": "PLACEHOLDER TESTIMONIALS. Every entry below is invented sample copy so the layout can be reviewed. Replace each one with a real quote (with the person's permission) and set \"placeholder\": false. Entries with placeholder: true show a visible 'Contoh / Sample' tag on the site.",
+  "items": [
+    {
+      "id": "lina",
+      "placeholder": true,
+      "name": "Ibu Lina",
+      "program": "standard",
+      "level": 2,
+      "role": { "id": "Orang tua murid", "en": "Parent" },
+      "quote": {
+        "id": "Dulu Kevin diam saja kalau ditanya pakai bahasa Inggris. Sekarang dia yang ngajarin adiknya nyanyi lagu-lagu dari kelas.",
+        "en": "Kevin used to go quiet whenever someone asked him something in English. Now he's the one teaching his little sister the songs from class."
+      },
+      "outcome": {
+        "label": { "id": "Nilai rapor Bahasa Inggris", "en": "School report, English" },
+        "before": "72",
+        "after": "88"
+      }
+    },
+    {
+      "id": "putri",
+      "placeholder": true,
+      "name": "Putri",
+      "program": "pre-toefl",
+      "level": null,
+      "role": { "id": "Mahasiswi", "en": "University student" },
+      "quote": {
+        "id": "Saya ikut Pre-TOEFL dua bulan sebelum daftar beasiswa. Yang paling membantu: latihan per bagian dan cara ngatur waktunya.",
+        "en": "I joined Pre-TOEFL two months before applying for a scholarship. What helped most was practising section by section, and learning how to pace myself."
+      },
+      "outcome": {
+        "label": { "id": "Skor TOEFL ITP", "en": "TOEFL ITP score" },
+        "before": "450",
+        "after": "527"
+      }
+    },
+    {
+      "id": "andreas",
+      "placeholder": true,
+      "name": "Andreas",
+      "program": "intermediate",
+      "level": 2,
+      "role": { "id": "Karyawan swasta", "en": "Office worker" },
+      "quote": {
+        "id": "Kelasnya habis jam kerja, jadi masih kekejar. Sekarang saya nggak deg-degan lagi kalau rapat sama klien dari luar.",
+        "en": "Classes start after office hours, so I can actually make it. These days I don't panic when we have calls with overseas clients."
+      },
+      "outcome": {
+        "label": { "id": "Presentasi ke klien", "en": "Client presentations" },
+        "before": { "id": "Selalu minta ditemani", "en": "Always needed backup" },
+        "after": { "id": "Presentasi sendiri", "en": "Presents on his own" }
+      }
+    },
+    {
+      "id": "hendra",
+      "placeholder": true,
+      "name": "Bapak Hendra",
+      "program": "kindergarten",
+      "level": 3,
+      "role": { "id": "Orang tua murid", "en": "Parent" },
+      "quote": {
+        "id": "Hari pertama anak saya nangis di depan pintu. Bulan ketiga, dia yang narik tangan saya supaya cepat berangkat.",
+        "en": "On day one my son cried at the door. By the third month he was the one pulling my hand so we'd leave on time."
+      },
+      "outcome": {
+        "label": { "id": "Laporan bulanan", "en": "Monthly report" },
+        "before": { "id": "Malu bicara", "en": "Too shy to speak" },
+        "after": { "id": "Aktif menjawab", "en": "Answers out loud" }
+      }
+    },
+    {
+      "id": "nadia",
+      "placeholder": true,
+      "name": "Nadia",
+      "program": "elementary",
+      "level": 3,
+      "role": { "id": "Siswi SMP", "en": "Junior high student" },
+      "quote": {
+        "id": "Grammar-nya dijelasin pakai contoh dari obrolan kita sendiri di kelas. Jadi nggak ngantuk, dan lebih nempel.",
+        "en": "Grammar gets explained with examples from our own conversations in class. So it's not boring, and it actually sticks."
+      },
+      "outcome": {
+        "label": { "id": "Nilai ulangan harian", "en": "Class test score" },
+        "before": "65",
+        "after": "84"
+      }
+    }
+  ]
+}

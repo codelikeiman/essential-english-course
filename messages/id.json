@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "Essential English Course — Kursus Bahasa Inggris di Medan sejak 2005",
+    "description": "Kursus bahasa Inggris tatap muka di Jalan Mawar, Medan. Dari TK sampai persiapan TOEFL, maksimal 15 murid per kelas. Daftar tes penempatan gratis.",
+    "ogTitle": "Berani ngomong dulu, grammar nyusul.",
+    "ogImageAlt": "Essential English Course, Medan — Berani ngomong dulu, grammar nyusul.",
+    "programTitle": "Program {name} · {audience}",
+    "programDescription": "{summary} {months} bulan per level, {fee} per bulan. Tes penempatan gratis di Jalan Mawar, Medan.",
+    "notFoundTitle": "Halaman tidak ditemukan"
+  },
+  "common": {
+    "skipToContent": "Langsung ke konten",
+    "ctaPlacement": "Tes Penempatan Gratis",
+    "ctaPlacementShort": "Tes Gratis",
+    "chatWhatsapp": "Chat via WhatsApp",
+    "whatsappGreeting": "Halo Essential English Course, saya mau tanya soal kursus.",
+    "placeholderTag": "Contoh",
+    "placeholderHint": "Data contoh — ganti dengan data asli sebelum situs online.",
+    "perMonth": "/bulan",
+    "newTab": "(buka di tab baru)",
+    "backToTop": "Kembali ke atas",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "menu": "Menu",
+    "toggleTheme": "Ganti tema terang atau gelap",
+    "language": "Bahasa",
+    "switchTo": "Ganti ke {language}",
+    "languages": {
+      "id": "Bahasa Indonesia",
+      "en": "English"
+    },
+    "home": "Beranda",
+    "since": "Sejak {year}"
+  },
+  "nav": {
+    "label": "Navigasi utama",
+    "programs": "Program",
+    "method": "Metode",
+    "teachers": "Pengajar",
+    "pricing": "Biaya",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "kicker": "Kursus bahasa Inggris · Medan",
+    "title": "Berani <u>ngomong</u> dulu,|grammar nyusul.",
+    "lead": "Kursus bahasa Inggris tatap muka di Jalan Mawar, Medan, sejak {year}. Satu kelas maksimal {count} murid, jadi semua kebagian giliran ngomong — di setiap pertemuan.",
+    "ctaSecondary": "Tanya via WhatsApp",
+    "note": "maks {count} murid, jadi gurunya hafal nama kamu",
+    "sticker": "Maks {count} murid per kelas",
+    "factsLabel": "Sekilas",
+    "facts": {
+      "classSize": "Ukuran kelas",
+      "classSizeValue": "Maks <circle>{count}</circle> murid",
+      "programs": "Program",
+      "programsValue": "{programs} program, {levels} level",
+      "format": "Format",
+      "formatValue": "Tatap muka & private",
+      "location": "Lokasi",
+      "locationValue": "Jl. Mawar, Medan",
+      "students": "Murid",
+      "studentsValue": "{count} murid"
+    },
+    "photos": {
+      "class": "Suasana kelas: guru dan murid ngobrol dalam bahasa Inggris",
+      "teacher": "Pengajar Essential English Course tersenyum di depan papan tulis",
+      "notebook": "Buku catatan murid berisi kosakata baru dengan coretan pena merah"
+    }
+  },
+  "programs": {
+    "label": "Program",
+    "meta": "{programs} program · {levels} level",
+    "title": "Dari TK sampai <em>siap TOEFL.</em>",
+    "lead": "Setiap level berjalan {months} bulan. Nggak perlu nebak harus mulai dari mana — tes penempatan gratis yang menentukan.",
+    "note": "nggak yakin levelnya? itu gunanya tes gratis",
+    "tableLabel": "Daftar program",
+    "columns": {
+      "no": "No.",
+      "program": "Program",
+      "audience": "Untuk",
+      "levels": "Level",
+      "duration": "Durasi",
+      "summary": "Singkatnya"
+    },
+    "durationPerLevel": "{months} bln/level",
+    "durationSingle": "{months} bulan",
+    "singleStage": "1 tahap",
+    "detailLink": "Detail program {name}",
+    "items": {
+      "kindergarten": {
+        "audience": "TK, usia 4–6 tahun",
+        "summary": "Lagu, gerak, dan cerita bergambar. Kenalan sama bahasa Inggris tanpa rasa takut.",
+        "tagline": "Kenalan dulu, <em>tanpa takut.</em>",
+        "overview1": "Di umur segini, tujuannya sederhana: si kecil suka dulu sama bahasa Inggris. Belajarnya lewat lagu, gerak, gambar, dan permainan — bukan lembar kerja yang panjang.",
+        "overview2": "Satu kelas maksimal {count} anak, jadi guru sempat menyapa satu per satu dan memastikan yang pemalu juga ikut bersuara.",
+        "level1": "Salam, warna, angka, dan nama benda di sekitar. Mulai menjawab dengan satu kata.",
+        "level2": "Kata kerja sederhana dan lagu yang lebih panjang. Menjawab dengan dua sampai tiga kata.",
+        "level3": "Cerita bergambar pendek dan kalimat pertama. Siap lanjut ke Standard.",
+        "fit1": "Si kecil masih TK dan baru kenal bahasa Inggris.",
+        "fit2": "Dia suka nyanyi dan bergerak, tapi masih malu bicara.",
+        "fit3": "Kamu ingin awal yang menyenangkan, bukan hafalan.",
+        "next": "Selesai Kindergarten 3, lanjut ke Standard."
+      },
+      "standard": {
+        "audience": "SD kelas 1–3",
+        "summary": "Dari kata ke kalimat utuh. Mulai berani menjawab pertanyaan guru dengan suara sendiri.",
+        "tagline": "Dari kata ke <em>kalimat.</em>",
+        "overview1": "Standard untuk anak SD kelas 1–3. Kosakata mulai dirangkai jadi kalimat, dan anak belajar membaca kata-kata sederhana dalam bahasa Inggris.",
+        "overview2": "Setiap pertemuan tetap ada waktu ngomong. Guru membiasakan anak menjawab dengan kalimat lengkap — pelan-pelan, dan nggak dimarahi kalau salah.",
+        "level1": "Kalimat pendek tentang diri sendiri, keluarga, dan sekolah.",
+        "level2": "Membaca kata dan kalimat sederhana. Bertanya dan menjawab pertanyaan pendek.",
+        "level3": "Bercerita singkat tentang kegiatan sehari-hari. Siap lanjut ke Primary.",
+        "fit1": "Anak kamu duduk di kelas 1–3 SD.",
+        "fit2": "Sudah kenal beberapa kata, tapi belum berani merangkai kalimat.",
+        "fit3": "Kamu ingin pelajaran bahasa Inggris di sekolah terasa lebih ringan.",
+        "next": "Selesai Standard 3, lanjut ke Primary."
+      },
+      "primary": {
+        "audience": "SD kelas 4–6",
+        "summary": "Membaca cerita pendek, menceritakan ulang, dan ngobrol tentang hari-hari mereka sendiri.",
+        "tagline": "Dari kalimat ke <em>cerita.</em>",
+        "overview1": "Primary untuk anak SD kelas 4–6. Anak mulai membaca teks yang lebih panjang, menulis paragraf pendek, dan menceritakan ulang dengan kata-katanya sendiri.",
+        "overview2": "Grammar mulai dikenalkan, tapi selalu lewat contoh yang dipakai ngomong. Tujuannya: anak paham kenapa kalimatnya benar, bukan cuma hafal rumus.",
+        "level1": "Membaca cerita pendek dan menjawab pertanyaan tentang isinya.",
+        "level2": "Menceritakan ulang cerita dan pengalaman sendiri secara lisan.",
+        "level3": "Menulis paragraf pendek dan presentasi kecil di depan kelas. Siap lanjut ke Elementary.",
+        "fit1": "Anak kamu duduk di kelas 4–6 SD.",
+        "fit2": "Nilainya lumayan, tapi masih kaku kalau diajak ngobrol.",
+        "fit3": "Kamu ingin fondasi yang kuat sebelum masuk SMP.",
+        "next": "Selesai Primary 3, lanjut ke Elementary."
+      },
+      "elementary": {
+        "audience": "SMP & pemula dewasa",
+        "summary": "Fondasi grammar yang langsung dipakai ngomong, bukan cuma dihafal untuk ulangan.",
+        "tagline": "Fondasi yang <em>dipakai</em>, bukan dihafal.",
+        "overview1": "Elementary untuk siswa SMP dan orang dewasa yang mulai dari dasar. Fondasinya kita rapikan: tenses yang paling sering dipakai, kosakata sehari-hari, dan cara bertanya.",
+        "overview2": "Setiap aturan grammar langsung dipakai dalam percakapan di kelas. Kalau salah, dibetulkan bareng — bukan ditertawakan.",
+        "level1": "Kalimat dasar dan tenses sehari-hari. Memperkenalkan diri dengan percaya diri.",
+        "level2": "Bercerita tentang masa lalu dan rencana ke depan. Membaca teks pendek.",
+        "level3": "Diskusi singkat dan menulis pesan atau email sederhana. Siap lanjut ke Intermediate.",
+        "fit1": "Kamu siswa SMP, atau orang dewasa yang mau mulai dari awal.",
+        "fit2": "Sudah belajar bertahun-tahun di sekolah, tapi masih takut ngomong.",
+        "fit3": "Kamu butuh fondasi yang rapi sebelum naik level.",
+        "next": "Selesai Elementary 3, lanjut ke Intermediate."
+      },
+      "intermediate": {
+        "audience": "SMA, mahasiswa & pekerja",
+        "summary": "Diskusi, presentasi, dan menulis yang rapi. Mulai nyaman pakai bahasa Inggris sehari-hari.",
+        "tagline": "Dari bisa ke <em>nyaman.</em>",
+        "overview1": "Intermediate untuk siswa SMA, mahasiswa, dan pekerja yang sudah punya dasar. Fokusnya bergeser dari “benar” ke “lancar”: diskusi, presentasi, dan tulisan yang jelas.",
+        "overview2": "Kelas berlangsung sore sampai malam, jadi masih bisa dikejar sepulang sekolah, kuliah, atau kerja.",
+        "level1": "Diskusi topik sehari-hari dan memberi pendapat lengkap dengan alasannya.",
+        "level2": "Presentasi singkat dan menulis teks yang terstruktur.",
+        "level3": "Debat ringan, merangkum bacaan, dan bicara lebih spontan. Siap lanjut ke Pre-TOEFL.",
+        "fit1": "Kamu bisa membaca, tapi kalimat suka macet saat bicara.",
+        "fit2": "Kamu butuh bahasa Inggris untuk kuliah atau kerja.",
+        "fit3": "Kamu ingin lebih percaya diri saat presentasi dan rapat.",
+        "next": "Selesai Intermediate 3, lanjut ke Pre-TOEFL — atau berhenti di sini kalau tujuanmu sudah tercapai."
+      },
+      "pre-toefl": {
+        "audience": "Mahasiswa & profesional",
+        "summary": "Kenali format TOEFL, latihan per bagian, dan atur strategi waktu sebelum tes sungguhan.",
+        "tagline": "Siap sebelum <em>hari tes.</em>",
+        "overview1": "Pre-TOEFL untuk mahasiswa dan profesional yang sedang menyiapkan tes TOEFL — untuk syarat kelulusan, beasiswa, atau pekerjaan.",
+        "overview2": "Kita bedah format tesnya, latihan setiap bagian, dan berlatih mengatur waktu. Program ini fokus pada persiapan; untuk pendaftaran tes TOEFL resmi, tanya kami via WhatsApp.",
+        "level1": "Listening Comprehension — memahami percakapan dan ceramah pendek.",
+        "level2": "Structure & Written Expression — pola grammar yang paling sering keluar.",
+        "level3": "Reading Comprehension — membaca cepat dan menjawab tepat waktu.",
+        "fit1": "Kamu butuh skor TOEFL untuk kuliah, beasiswa, atau kerja.",
+        "fit2": "Kamu sudah punya dasar dan ingin terbiasa dengan format tesnya.",
+        "fit3": "Kamu ingin latihan dengan batas waktu, bukan sekadar baca teori.",
+        "next": "Selesai program ini, kamu siap mendaftar tes TOEFL resmi."
+      }
+    }
+  },
+  "method": {
+    "label": "Metode",
+    "meta": "4 langkah, setiap bulan",
+    "title": "Empat langkah, <em>tanpa</em> bolong.",
+    "lead": "Bukan metode rahasia. Cuma dikerjakan dengan konsisten — untuk setiap murid, setiap bulan.",
+    "steps": {
+      "placement": {
+        "title": "Tes penempatan",
+        "body": "Ngobrol santai dengan guru, plus beberapa soal singkat. Gratis. Dari sini kami tahu level yang paling pas."
+      },
+      "smallClass": {
+        "title": "Kelas kecil",
+        "body": "Maksimal {count} murid. Guru hafal nama, tahu siapa yang masih malu-malu, dan siapa yang perlu ditantang."
+      },
+      "speaking": {
+        "title": "Ngomong tiap sesi",
+        "body": "Setiap pertemuan ada waktu bicara. Bukan cuma dengar guru — kamu yang ngomong."
+      },
+      "report": {
+        "title": "Laporan bulanan",
+        "body": "Tiap bulan ada laporan perkembangan: apa yang sudah bisa, dan apa yang perlu dilatih lagi."
+      }
+    }
+  },
+  "teachers": {
+    "label": "Pengajar",
+    "meta": "Kenalan dulu",
+    "title": "Guru yang sabar nunggu kamu <em>selesai</em> ngomong.",
+    "lead": "Ini orang-orang yang bakal kamu temui setiap minggu. Mereka yang menyapa, mengoreksi, dan menunggu kamu selesai bicara.",
+    "carouselLabel": "Daftar pengajar",
+    "slideLabel": "{index} dari {total}",
+    "prev": "Pengajar sebelumnya",
+    "next": "Pengajar berikutnya",
+    "teaches": "Mengajar {programs}",
+    "people": {
+      "sari": {
+        "teaches": "KG & Standard",
+        "quote": "Salah itu bagian dari belajar. Yang penting berani ngomong dulu."
+      },
+      "daniel": {
+        "teaches": "Intermediate & Pre-TOEFL",
+        "quote": "Saya suka kelas yang berisik. Artinya semua lagi latihan."
+      },
+      "rina": {
+        "teaches": "Kindergarten & Primary",
+        "quote": "Anak kecil nggak perlu dipaksa. Cukup dibikin penasaran."
+      },
+      "yosef": {
+        "teaches": "Pre-TOEFL",
+        "quote": "Strategi tes itu bisa dipelajari. Tenang saat tes juga bisa dilatih."
+      },
+      "tika": {
+        "teaches": "Elementary & Primary",
+        "quote": "Kalau kamu diam, saya tunggu. Pelan-pelan juga nggak apa-apa."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Hasil",
+    "meta": "Dari murid & orang tua",
+    "title": "Kata mereka, <em>bukan</em> kata kami.",
+    "carouselLabel": "Testimoni murid dan orang tua",
+    "slideLabel": "Testimoni {index} dari {total}",
+    "prev": "Testimoni sebelumnya",
+    "next": "Testimoni berikutnya",
+    "goTo": "Tampilkan testimoni",
+    "outcome": "Hasilnya",
+    "programLevel": "{program} {level}"
+  },
+  "pricing": {
+    "label": "Jadwal & Biaya",
+    "meta": "Bayar per bulan",
+    "title": "Biaya jelas <em>di depan.</em>",
+    "lead": "Bayar per bulan, satu level berjalan {months} bulan. Mulai {base} untuk Kindergarten, lalu naik {step} di setiap program berikutnya.",
+    "leadLevelMode": "Bayar per bulan, satu level berjalan {months} bulan. Mulai {base} untuk Kindergarten 1, lalu naik {step} di setiap level berikutnya.",
+    "hoursNote": "Kelas berlangsung {open}–{close} WIB. Jadwal pastinya diatur setelah tes penempatan, sesuai level dan slot yang masih kosong.",
+    "feesNote": "Ada pertanyaan soal biaya pendaftaran atau buku? Tanya langsung via WhatsApp — kami jawab apa adanya.",
+    "tabsLabel": "Pilih program",
+    "tableCaption": "Jadwal dan biaya program {name}",
+    "columns": {
+      "format": "Format",
+      "schedule": "Jadwal",
+      "duration": "Durasi",
+      "fee": "Biaya per bulan"
+    },
+    "group": "Kelas reguler",
+    "groupDetail": "Maks {count} murid",
+    "groupSchedule": "Antara {open}–{close} WIB, diatur setelah tes",
+    "groupDuration": "{months} bulan per level",
+    "groupDurationSingle": "{months} bulan",
+    "groupTotal": "± {total} per level",
+    "groupTotalSingle": "± {total} untuk {months} bulan",
+    "private": "Private",
+    "privateDetail": "1 murid, 1 guru",
+    "privateSchedule": "Atur bareng, di jam buka",
+    "privateDuration": "Atur bareng",
+    "privateFee": "Tanya via WhatsApp",
+    "privateWhatsappMessage": "Halo Essential English Course, saya mau tanya biaya kelas private untuk program {name}.",
+    "levelFee": "{program} {level}",
+    "includedTitle": "Sudah termasuk di kelas reguler",
+    "included": {
+      "placement": "Tes penempatan gratis",
+      "speaking": "Latihan ngomong di setiap pertemuan",
+      "report": "Laporan perkembangan bulanan",
+      "size": "Maksimal {count} murid per kelas"
+    },
+    "cta": "Daftar tes untuk {name}"
+  },
+  "faq": {
+    "label": "FAQ",
+    "meta": "{count} pertanyaan",
+    "title": "Yang paling sering <em>ditanya</em> di WhatsApp.",
+    "asideTitle": "Pertanyaanmu nggak ada di sini?",
+    "asideBody": "Chat aja. Kami balas di jam buka, {open}–{close} WIB.",
+    "asideCta": "Tanya via WhatsApp",
+    "items": {
+      "placement": {
+        "q": "Tes penempatannya bayar? Isinya apa?",
+        "a": "Gratis, dan nggak wajib daftar sesudahnya. Isinya ngobrol santai dengan guru plus beberapa soal singkat, supaya kami tahu level yang paling pas."
+      },
+      "age": {
+        "q": "Anak saya masuk program yang mana?",
+        "a": "Patokan kasarnya: TK ke Kindergarten, SD kelas 1–3 ke Standard, SD kelas 4–6 ke Primary, SMP ke Elementary, SMA dan dewasa ke Intermediate, lalu Pre-TOEFL untuk persiapan tes. Tapi yang menentukan tetap hasil tes penempatan, bukan umur."
+      },
+      "duration": {
+        "q": "Berapa lama satu level?",
+        "a": "{months} bulan per level. Program dengan tiga level berarti sekitar {total} bulan kalau diikuti sampai selesai."
+      },
+      "fees": {
+        "q": "Biayanya berapa?",
+        "a": "Mulai {min} per bulan untuk Kindergarten, sampai {max} per bulan untuk Pre-TOEFL. Rinciannya ada di bagian Jadwal & Biaya."
+      },
+      "schedule": {
+        "q": "Jadwal kelasnya kapan?",
+        "a": "Kami buka {open}–{close} WIB. Jadwal pastinya diatur setelah tes penempatan, menyesuaikan level dan slot yang masih kosong."
+      },
+      "online": {
+        "q": "Ada kelas online?",
+        "a": "Belum ada. Semua kelas tatap muka di Jalan Mawar. Kalau jadwalmu susah dicocokkan, kelas private bisa diatur bareng."
+      },
+      "makeup": {
+        "q": "Kalau berhalangan hadir, bisa ganti kelas?",
+        "a": "Bisa. Kabari kami sebelum kelas dimulai, nanti kami bantu cari kelas pengganti di level yang sama."
+      },
+      "payment": {
+        "q": "Bayarnya gimana?",
+        "a": "Per bulan, di awal bulan. Bisa tunai di tempat atau transfer bank."
+      }
+    }
+  },
+  "placement": {
+    "label": "Tes Penempatan",
+    "meta": "Gratis · tanpa syarat daftar",
+    "title": "Santai, ini <em>bukan</em> ujian.",
+    "lead": "Isi formulir ini, nanti kami hubungi lewat WhatsApp untuk atur jadwal tes. Gratis, dan nggak wajib daftar sesudahnya.",
+    "stepsLabel": "Alurnya",
+    "steps": {
+      "fill": "Isi formulir. Cuma semenit.",
+      "contact": "Kami WhatsApp kamu untuk atur jadwal.",
+      "visit": "Datang, ngobrol sama guru, beres."
+    },
+    "fallbackTitle": "Lebih suka chat langsung?",
+    "fallbackNote": "chat aja, sama cepatnya",
+    "slipTitle": "Formulir tes penempatan",
+    "stamp": "Gratis"
+  },
+  "form": {
+    "name": "Nama lengkap murid",
+    "parentName": "Nama orang tua",
+    "parentNameHint": "Untuk murid Kindergarten, Standard, dan Primary.",
+    "whatsapp": "Nomor WhatsApp",
+    "whatsappHint": "Contoh: 0812 3456 7890 atau +62 812 3456 7890",
+    "email": "Email",
+    "program": "Program",
+    "programPlaceholder": "Pilih program",
+    "programUnsure": "Belum tahu — bantu pilihkan",
+    "schedule": "Waktu yang paling pas",
+    "scheduleOptions": {
+      "afternoon": "Sore",
+      "afternoonTime": "16.00–18.00",
+      "evening": "Malam",
+      "eveningTime": "18.00–21.00",
+      "flexible": "Fleksibel",
+      "flexibleTime": "Kapan saja"
+    },
+    "message": "Pesan",
+    "messagePlaceholder": "Misal: anak saya kelas 3 SD, masih malu kalau disuruh ngomong.",
+    "optional": "opsional",
+    "honeypot": "Kosongkan isian ini",
+    "submit": "Kirim & atur jadwal tes",
+    "submitting": "Mengirim…",
+    "privacy": "Data ini cuma dipakai untuk mengatur jadwal tes.",
+    "errors": {
+      "name": "Tulis nama murid, minimal 2 huruf.",
+      "parentName": "Nama orang tua maksimal 80 karakter.",
+      "whatsapp": "Nomor WhatsApp-nya belum pas. Coba format 08xx atau +62 8xx.",
+      "email": "Format email-nya belum benar.",
+      "program": "Pilih salah satu program, atau “Belum tahu”.",
+      "schedule": "Pilih waktu yang paling pas.",
+      "message": "Pesannya maksimal 500 karakter.",
+      "website": "Kosongkan isian ini.",
+      "server": "Ada gangguan saat mengirim. Coba lagi, atau langsung chat kami via WhatsApp."
+    },
+    "success": {
+      "stamp": "Diterima",
+      "title": "Terima kasih, {name}!",
+      "body": "Datanya sudah kami terima. Kami balas lewat WhatsApp di jam buka, {open}–{close} WIB.",
+      "cta": "Mau lebih cepat? Chat sekarang",
+      "again": "Daftarkan murid lain"
+    },
+    "whatsappMessage": "Halo Essential English Course, saya {name}. Saya mau atur jadwal tes penempatan gratis untuk program {program}.",
+    "whatsappMessageUnsure": "Halo Essential English Course, saya {name}. Saya mau atur jadwal tes penempatan gratis — belum tahu program mana yang cocok.",
+    "whatsappMessageGeneric": "Halo Essential English Course, saya mau atur jadwal tes penempatan gratis."
+  },
+  "location": {
+    "label": "Lokasi",
+    "meta": "Jalan Mawar, Medan",
+    "title": "Mampir, lihat <em>kelasnya</em> langsung.",
+    "address": "Alamat",
+    "hours": "Jam buka",
+    "hoursDays": "Senin–Sabtu",
+    "hoursTime": "{open}–{close} WIB",
+    "whatsapp": "WhatsApp",
+    "note": "bingung cari tempatnya? chat aja, kami kirim share-loc",
+    "showMap": "Tampilkan peta",
+    "mapConsent": "Peta dimuat dari Google Maps setelah kamu klik.",
+    "openMaps": "Buka di Google Maps",
+    "mapTitle": "Peta lokasi Essential English Course di Jalan Mawar, Medan",
+    "photoAlt": "Tampak depan gedung Essential English Course di Jalan Mawar"
+  },
+  "footer": {
+    "tagline": "Kursus bahasa Inggris tatap muka di Medan, sejak {year}.",
+    "contact": "Kontak",
+    "programs": "Program",
+    "follow": "Ikuti kami",
+    "hours": "{days}, {open}–{close} WIB",
+    "copyright": "© {start}–{end} Essential English Course. Medan, Sumatera Utara.",
+    "backToTop": "Kembali ke atas"
+  },
+  "programPage": {
+    "breadcrumbLabel": "Lokasi halaman",
+    "programs": "Program",
+    "factsLabel": "Ringkasan program",
+    "audience": "Untuk",
+    "levels": "Level",
+    "levelsValue": "{count} level × {months} bulan",
+    "singleStage": "1 tahap, {months} bulan",
+    "fee": "Biaya",
+    "feeValue": "{fee} / bulan",
+    "schedule": "Jadwal",
+    "scheduleValue": "{open}–{close} WIB, diatur setelah tes",
+    "classSize": "Ukuran kelas",
+    "classSizeValue": "Maks {count} murid",
+    "overview": "Gambaran",
+    "levelByLevel": "Per level",
+    "focus": "Yang dilatih",
+    "levelName": "{program} {level}",
+    "fit": "Cocok untuk kamu kalau…",
+    "next": "Setelah ini",
+    "others": "Program lain",
+    "cta": "Daftar tes penempatan",
+    "whatsapp": "Tanya soal {name}",
+    "whatsappMessage": "Halo Essential English Course, saya mau tanya soal program {name}.",
+    "photoAlt": "Suasana kelas {name} di Essential English Course",
+    "allPrograms": "Semua program"
+  },
+  "notFound": {
+    "title": "Halaman ini nggak ada.",
+    "body": "Mungkin tautannya salah ketik, atau halamannya sudah pindah.",
+    "cta": "Kembali ke beranda"
+  }
+}

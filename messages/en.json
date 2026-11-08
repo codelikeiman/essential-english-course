@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "Essential English Course — English classes in Medan since 2005",
+    "description": "Face-to-face English classes on Jalan Mawar, Medan. From kindergarten to TOEFL prep, with 15 students per class at most. Book a free placement test.",
+    "ogTitle": "Speak first. Grammar follows.",
+    "ogImageAlt": "Essential English Course, Medan — Speak first. Grammar follows.",
+    "programTitle": "{name} program · {audience}",
+    "programDescription": "{summary} {months} months per level, {fee} per month. Free placement test on Jalan Mawar, Medan.",
+    "notFoundTitle": "Page not found"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "ctaPlacement": "Free Placement Test",
+    "ctaPlacementShort": "Free Test",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "whatsappGreeting": "Hi Essential English Course, I have a question about your classes.",
+    "placeholderTag": "Sample",
+    "placeholderHint": "Sample data — replace with real data before the site goes live.",
+    "perMonth": "/month",
+    "newTab": "(opens in a new tab)",
+    "backToTop": "Back to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "toggleTheme": "Switch between light and dark theme",
+    "language": "Language",
+    "switchTo": "Switch to {language}",
+    "languages": {
+      "id": "Bahasa Indonesia",
+      "en": "English"
+    },
+    "home": "Home",
+    "since": "Since {year}"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "programs": "Programs",
+    "method": "Method",
+    "teachers": "Teachers",
+    "pricing": "Fees",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "kicker": "English course · Medan",
+    "title": "Speak <u>first</u>.|Grammar follows.",
+    "lead": "Face-to-face English classes on Jalan Mawar, Medan, since {year}. Classes cap at {count} students, so everyone gets a turn to speak — every single session.",
+    "ctaSecondary": "Ask on WhatsApp",
+    "note": "{count} students max, so your teacher knows your name",
+    "sticker": "{count} students max per class",
+    "factsLabel": "At a glance",
+    "facts": {
+      "classSize": "Class size",
+      "classSizeValue": "<circle>{count}</circle> students max",
+      "programs": "Programs",
+      "programsValue": "{programs} programs, {levels} levels",
+      "format": "Format",
+      "formatValue": "In person & private",
+      "location": "Location",
+      "locationValue": "Jl. Mawar, Medan",
+      "students": "Students",
+      "studentsValue": "{count} students"
+    },
+    "photos": {
+      "class": "A class in session: a teacher and students chatting in English",
+      "teacher": "An Essential English Course teacher smiling by the whiteboard",
+      "notebook": "A student’s notebook with new vocabulary and red-pen notes"
+    }
+  },
+  "programs": {
+    "label": "Programs",
+    "meta": "{programs} programs · {levels} levels",
+    "title": "From kindergarten to <em>TOEFL-ready.</em>",
+    "lead": "Each level runs for {months} months. No need to guess where to start — the free placement test decides.",
+    "note": "not sure which level? that’s what the free test is for",
+    "tableLabel": "Program list",
+    "columns": {
+      "no": "No.",
+      "program": "Program",
+      "audience": "For",
+      "levels": "Levels",
+      "duration": "Length",
+      "summary": "In short"
+    },
+    "durationPerLevel": "{months} mo/level",
+    "durationSingle": "{months} months",
+    "singleStage": "1 stage",
+    "detailLink": "{name} program details",
+    "items": {
+      "kindergarten": {
+        "audience": "Kindergarten, ages 4–6",
+        "summary": "Songs, movement and picture stories. Meeting English without the fear.",
+        "tagline": "Meet English <em>without the fear.</em>",
+        "overview1": "At this age the goal is simple: your child should enjoy English first. We learn through songs, movement, pictures and games — not long worksheets.",
+        "overview2": "Classes cap at {count} children, so the teacher can greet each one and make sure the shy ones get a voice too.",
+        "level1": "Greetings, colours, numbers and everyday objects. Answering with a single word.",
+        "level2": "Simple action words and longer songs. Answering with two or three words.",
+        "level3": "Short picture stories and first sentences. Ready for Standard.",
+        "fit1": "Your child is in kindergarten and new to English.",
+        "fit2": "They love singing and moving, but are shy to speak.",
+        "fit3": "You want a fun start, not memorisation.",
+        "next": "After Kindergarten 3, move up to Standard."
+      },
+      "standard": {
+        "audience": "Primary school, grades 1–3",
+        "summary": "From single words to full sentences. Starting to answer the teacher out loud.",
+        "tagline": "From words to <em>sentences.</em>",
+        "overview1": "Standard is for children in grades 1–3. Vocabulary turns into sentences, and children start reading simple English words.",
+        "overview2": "Every session still has speaking time. Teachers get children used to answering in full sentences — slowly, and nobody gets told off for mistakes.",
+        "level1": "Short sentences about themselves, their family and school.",
+        "level2": "Reading simple words and sentences. Asking and answering short questions.",
+        "level3": "Short talks about daily routines. Ready for Primary.",
+        "fit1": "Your child is in grades 1–3.",
+        "fit2": "They know some words but don’t dare build sentences yet.",
+        "fit3": "You want English at school to feel easier.",
+        "next": "After Standard 3, move up to Primary."
+      },
+      "primary": {
+        "audience": "Primary school, grades 4–6",
+        "summary": "Reading short stories, retelling them, and chatting about their own day.",
+        "tagline": "From sentences to <em>stories.</em>",
+        "overview1": "Primary is for children in grades 4–6. They read longer texts, write short paragraphs and retell stories in their own words.",
+        "overview2": "Grammar comes in, but always through examples they actually say out loud. The aim: understanding why a sentence is right, not memorising formulas.",
+        "level1": "Reading short stories and answering questions about them.",
+        "level2": "Retelling stories and their own experiences out loud.",
+        "level3": "Writing short paragraphs and giving small presentations to the class. Ready for Elementary.",
+        "fit1": "Your child is in grades 4–6.",
+        "fit2": "Their grades are fine, but they freeze in conversation.",
+        "fit3": "You want a solid base before junior high.",
+        "next": "After Primary 3, move up to Elementary."
+      },
+      "elementary": {
+        "audience": "Junior high & adult beginners",
+        "summary": "Grammar foundations you use when speaking, not just memorise for tests.",
+        "tagline": "Foundations you <em>use</em>, not memorise.",
+        "overview1": "Elementary is for junior high students and adults starting from the basics. We tidy up the foundations: the tenses you use most, everyday vocabulary, and how to ask questions.",
+        "overview2": "Every grammar point goes straight into conversation in class. Mistakes get fixed together — nobody laughs.",
+        "level1": "Basic sentences and everyday tenses. Introducing yourself with confidence.",
+        "level2": "Talking about the past and future plans. Reading short texts.",
+        "level3": "Short discussions and writing simple messages or emails. Ready for Intermediate.",
+        "fit1": "You’re in junior high, or an adult starting from scratch.",
+        "fit2": "You studied English at school for years but still fear speaking.",
+        "fit3": "You need tidy foundations before moving up.",
+        "next": "After Elementary 3, move up to Intermediate."
+      },
+      "intermediate": {
+        "audience": "High school, university & working adults",
+        "summary": "Discussions, presentations and tidy writing. Getting comfortable using English every day.",
+        "tagline": "From able to <em>comfortable.</em>",
+        "overview1": "Intermediate is for high school students, university students and working adults who already have the basics. The focus shifts from “correct” to “fluent”: discussions, presentations and clear writing.",
+        "overview2": "Classes run from late afternoon into the evening, so you can still make it after school, lectures or work.",
+        "level1": "Discussing everyday topics and giving opinions with reasons.",
+        "level2": "Short presentations and well-structured writing.",
+        "level3": "Light debates, summarising what you read, and speaking more spontaneously. Ready for Pre-TOEFL.",
+        "fit1": "You can read English, but your sentences stall when you speak.",
+        "fit2": "You need English for university or work.",
+        "fit3": "You want more confidence in presentations and meetings.",
+        "next": "After Intermediate 3, move on to Pre-TOEFL — or stop here if you’ve reached your goal."
+      },
+      "pre-toefl": {
+        "audience": "University students & professionals",
+        "summary": "Learn the TOEFL format, practise each section and plan your timing before the real test.",
+        "tagline": "Ready before <em>test day.</em>",
+        "overview1": "Pre-TOEFL is for university students and professionals preparing for the TOEFL — for graduation, scholarships or work.",
+        "overview2": "We break down the test format, practise every section and drill your timing. This program is preparation; to register for an official TOEFL test, ask us on WhatsApp.",
+        "level1": "Listening Comprehension — following conversations and short talks.",
+        "level2": "Structure & Written Expression — the grammar patterns that come up most.",
+        "level3": "Reading Comprehension — reading fast and answering on time.",
+        "fit1": "You need a TOEFL score for university, a scholarship or a job.",
+        "fit2": "You have the basics and want to get used to the test format.",
+        "fit3": "You want timed practice, not just theory.",
+        "next": "After this program, you’re ready to sign up for an official TOEFL test."
+      }
+    }
+  },
+  "method": {
+    "label": "Method",
+    "meta": "4 steps, every month",
+    "title": "Four steps, <em>no</em> shortcuts.",
+    "lead": "No secret method. We just do it consistently — for every student, every month.",
+    "steps": {
+      "placement": {
+        "title": "Placement test",
+        "body": "A relaxed chat with a teacher, plus a few short questions. Free. It tells us which level fits."
+      },
+      "smallClass": {
+        "title": "Small classes",
+        "body": "{count} students at most. The teacher knows every name, who’s still shy, and who needs a push."
+      },
+      "speaking": {
+        "title": "Speaking, every session",
+        "body": "Every class has speaking time. Not just listening to the teacher — you do the talking."
+      },
+      "report": {
+        "title": "Monthly report",
+        "body": "Every month there’s a progress report: what’s going well, and what needs more practice."
+      }
+    }
+  },
+  "teachers": {
+    "label": "Teachers",
+    "meta": "Say hello",
+    "title": "Teachers who let you <em>finish</em> your sentence.",
+    "lead": "These are the people you’ll see every week. They greet you, correct you, and wait for you to finish speaking.",
+    "carouselLabel": "Teachers",
+    "slideLabel": "{index} of {total}",
+    "prev": "Previous teacher",
+    "next": "Next teacher",
+    "teaches": "Teaches {programs}",
+    "people": {
+      "sari": {
+        "teaches": "KG & Standard",
+        "quote": "Mistakes are part of learning. What matters is speaking up first."
+      },
+      "daniel": {
+        "teaches": "Intermediate & Pre-TOEFL",
+        "quote": "I like a noisy class. It means everyone’s practising."
+      },
+      "rina": {
+        "teaches": "Kindergarten & Primary",
+        "quote": "Little kids don’t need pushing. Just make them curious."
+      },
+      "yosef": {
+        "teaches": "Pre-TOEFL",
+        "quote": "Test strategy can be learned. So can staying calm on test day."
+      },
+      "tika": {
+        "teaches": "Elementary & Primary",
+        "quote": "If you go quiet, I’ll wait. Slow is fine."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Results",
+    "meta": "From students & parents",
+    "title": "Their words, <em>not</em> ours.",
+    "carouselLabel": "Student and parent testimonials",
+    "slideLabel": "Testimonial {index} of {total}",
+    "prev": "Previous testimonial",
+    "next": "Next testimonial",
+    "goTo": "Show testimonial",
+    "outcome": "Outcome",
+    "programLevel": "{program} {level}"
+  },
+  "pricing": {
+    "label": "Schedule & Fees",
+    "meta": "Paid monthly",
+    "title": "Fees, <em>up front.</em>",
+    "lead": "Paid monthly, and each level runs for {months} months. {base} for Kindergarten, then {step} more for each program after that.",
+    "leadLevelMode": "Paid monthly, and each level runs for {months} months. {base} for Kindergarten 1, then {step} more for each level after that.",
+    "hoursNote": "Classes run between {open} and {close} (WIB). Your exact schedule is set after the placement test, based on your level and the open slots.",
+    "feesNote": "Questions about registration or book fees? Ask us on WhatsApp — you’ll get a straight answer.",
+    "tabsLabel": "Choose a program",
+    "tableCaption": "Schedule and fees for {name}",
+    "columns": {
+      "format": "Format",
+      "schedule": "Schedule",
+      "duration": "Length",
+      "fee": "Fee per month"
+    },
+    "group": "Group class",
+    "groupDetail": "{count} students max",
+    "groupSchedule": "Between {open} and {close} (WIB), set after the test",
+    "groupDuration": "{months} months per level",
+    "groupDurationSingle": "{months} months",
+    "groupTotal": "≈ {total} per level",
+    "groupTotalSingle": "≈ {total} for {months} months",
+    "private": "Private",
+    "privateDetail": "One student, one teacher",
+    "privateSchedule": "Arranged with you, within opening hours",
+    "privateDuration": "Arranged with you",
+    "privateFee": "Ask on WhatsApp",
+    "privateWhatsappMessage": "Hi Essential English Course, I’d like to ask about private class fees for the {name} program.",
+    "levelFee": "{program} {level}",
+    "includedTitle": "Every group class includes",
+    "included": {
+      "placement": "A free placement test",
+      "speaking": "Speaking practice in every session",
+      "report": "A monthly progress report",
+      "size": "{count} students per class at most"
+    },
+    "cta": "Book a test for {name}"
+  },
+  "faq": {
+    "label": "FAQ",
+    "meta": "{count} questions",
+    "title": "What people <em>ask</em> us most on WhatsApp.",
+    "asideTitle": "Didn’t find your question?",
+    "asideBody": "Just message us. We reply during opening hours, {open}–{close} (WIB).",
+    "asideCta": "Ask on WhatsApp",
+    "items": {
+      "placement": {
+        "q": "Is the placement test free? What’s in it?",
+        "a": "It’s free, and you don’t have to enrol afterwards. It’s a relaxed chat with a teacher plus a few short questions, so we know which level fits best."
+      },
+      "age": {
+        "q": "Which program is right for my child?",
+        "a": "Roughly: kindergarteners go to Kindergarten, grades 1–3 to Standard, grades 4–6 to Primary, junior high to Elementary, high school and adults to Intermediate, and Pre-TOEFL is for test prep. But the placement test decides, not age."
+      },
+      "duration": {
+        "q": "How long is one level?",
+        "a": "{months} months per level. A program with three levels takes about {total} months if you go all the way through."
+      },
+      "fees": {
+        "q": "How much does it cost?",
+        "a": "From {min} a month for Kindergarten up to {max} a month for Pre-TOEFL. The full breakdown is in Schedule & Fees."
+      },
+      "schedule": {
+        "q": "When are classes?",
+        "a": "We’re open {open}–{close} (WIB). Your exact schedule is set after the placement test, based on your level and the open slots."
+      },
+      "online": {
+        "q": "Do you offer online classes?",
+        "a": "Not at the moment. All classes are in person on Jalan Mawar. If your schedule is tricky, private classes can be arranged."
+      },
+      "makeup": {
+        "q": "What if I miss a class?",
+        "a": "Let us know before class starts and we’ll help you find a make-up class at the same level."
+      },
+      "payment": {
+        "q": "How do I pay?",
+        "a": "Monthly, at the start of each month. Cash at the school or bank transfer."
+      }
+    }
+  },
+  "placement": {
+    "label": "Placement Test",
+    "meta": "Free · no obligation",
+    "title": "Relax — it’s <em>not</em> an exam.",
+    "lead": "Fill in this form and we’ll message you on WhatsApp to set a time. It’s free, and there’s no obligation to enrol afterwards.",
+    "stepsLabel": "How it goes",
+    "steps": {
+      "fill": "Fill in the form. Takes a minute.",
+      "contact": "We message you on WhatsApp to set a time.",
+      "visit": "Come by, chat with a teacher, done."
+    },
+    "fallbackTitle": "Rather just chat?",
+    "fallbackNote": "message us, it’s just as quick",
+    "slipTitle": "Placement test form",
+    "stamp": "Free"
+  },
+  "form": {
+    "name": "Student’s full name",
+    "parentName": "Parent’s name",
+    "parentNameHint": "For Kindergarten, Standard and Primary students.",
+    "whatsapp": "WhatsApp number",
+    "whatsappHint": "e.g. 0812 3456 7890 or +62 812 3456 7890",
+    "email": "Email",
+    "program": "Program",
+    "programPlaceholder": "Choose a program",
+    "programUnsure": "Not sure — help me choose",
+    "schedule": "Best time for you",
+    "scheduleOptions": {
+      "afternoon": "Afternoon",
+      "afternoonTime": "4–6 pm",
+      "evening": "Evening",
+      "eveningTime": "6–9 pm",
+      "flexible": "Flexible",
+      "flexibleTime": "Any time"
+    },
+    "message": "Message",
+    "messagePlaceholder": "e.g. My daughter is in grade 3 and gets shy when asked to speak.",
+    "optional": "optional",
+    "honeypot": "Leave this field empty",
+    "submit": "Send & book my test",
+    "submitting": "Sending…",
+    "privacy": "We only use this to schedule your test.",
+    "errors": {
+      "name": "Please enter the student’s name (at least 2 letters).",
+      "parentName": "Keep the parent’s name under 80 characters.",
+      "whatsapp": "That WhatsApp number doesn’t look right. Try 08xx or +62 8xx.",
+      "email": "That email doesn’t look right.",
+      "program": "Choose a program, or “Not sure”.",
+      "schedule": "Choose the time that suits you best.",
+      "message": "Keep the message under 500 characters.",
+      "website": "Leave this field empty.",
+      "server": "Something went wrong while sending. Try again, or message us on WhatsApp."
+    },
+    "success": {
+      "stamp": "Received",
+      "title": "Thank you, {name}!",
+      "body": "We’ve got your details. We’ll reply on WhatsApp during opening hours, {open}–{close} (WIB).",
+      "cta": "Want it faster? Message us now",
+      "again": "Register another student"
+    },
+    "whatsappMessage": "Hi Essential English Course, I’m {name}. I’d like to book a free placement test for the {program} program.",
+    "whatsappMessageUnsure": "Hi Essential English Course, I’m {name}. I’d like to book a free placement test — I’m not sure which program fits yet.",
+    "whatsappMessageGeneric": "Hi Essential English Course, I’d like to book a free placement test."
+  },
+  "location": {
+    "label": "Location",
+    "meta": "Jalan Mawar, Medan",
+    "title": "Come and <em>see</em> the classroom.",
+    "address": "Address",
+    "hours": "Opening hours",
+    "hoursDays": "Monday–Saturday",
+    "hoursTime": "{open}–{close} (WIB)",
+    "whatsapp": "WhatsApp",
+    "note": "can’t find us? message us and we’ll send a pin",
+    "showMap": "Show map",
+    "mapConsent": "The map loads from Google Maps when you click.",
+    "openMaps": "Open in Google Maps",
+    "mapTitle": "Map showing Essential English Course on Jalan Mawar, Medan",
+    "photoAlt": "The front of the Essential English Course building on Jalan Mawar"
+  },
+  "footer": {
+    "tagline": "Face-to-face English classes in Medan, since {year}.",
+    "contact": "Contact",
+    "programs": "Programs",
+    "follow": "Follow us",
+    "hours": "{days}, {open}–{close} (WIB)",
+    "copyright": "© {start}–{end} Essential English Course. Medan, North Sumatra.",
+    "backToTop": "Back to top"
+  },
+  "programPage": {
+    "breadcrumbLabel": "Breadcrumb",
+    "programs": "Programs",
+    "factsLabel": "Program summary",
+    "audience": "For",
+    "levels": "Levels",
+    "levelsValue": "{count} levels × {months} months",
+    "singleStage": "1 stage, {months} months",
+    "fee": "Fee",
+    "feeValue": "{fee} / month",
+    "schedule": "Schedule",
+    "scheduleValue": "{open}–{close} (WIB), set after the test",
+    "classSize": "Class size",
+    "classSizeValue": "{count} students max",
+    "overview": "Overview",
+    "levelByLevel": "Level by level",
+    "focus": "What we practise",
+    "levelName": "{program} {level}",
+    "fit": "A good fit if…",
+    "next": "What comes next",
+    "others": "Other programs",
+    "cta": "Book a placement test",
+    "whatsapp": "Ask about {name}",
+    "whatsappMessage": "Hi Essential English Course, I’d like to ask about the {name} program.",
+    "photoAlt": "A {name} class at Essential English Course",
+    "allPrograms": "All programs"
+  },
+  "notFound": {
+    "title": "This page doesn’t exist.",
+    "body": "Maybe the link has a typo, or the page has moved.",
+    "cta": "Back to the home page"
+  }
+}
